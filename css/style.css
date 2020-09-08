@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1300px;
+    margin: auto;
+}
+
+header {
+    background-color: yellow;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color:white;
+}
+
+.container::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+aside {
+    background-color: pink;
+    float: left;
+    width: 25%;
+    height: 300px;
+
+}
+
+aside.rettangoli-pink {
+    background-color: pink;
+    float: left;
+}
+
+.rettangolo1 {
+    height: 260px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.rettangolo2 {
+    height: 260px;
+    width: 25%;
+}
+
+
+main {
+    background-color: purple;
+    float: left;
+    width: calc(50% - 20px);
+    height: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: lightblue;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
